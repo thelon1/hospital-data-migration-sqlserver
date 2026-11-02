@@ -231,6 +231,3 @@ It joins `Bills` -> `Appointments` -> `Doctors` -> `Departments`, filters on `Bi
 - **`TEXT` data type.** `Reportdata` uses `TEXT`, which is deprecated. `NVARCHAR(MAX)` is the recommended replacement.
 - **No indexes beyond keys.** Indexes on `Appointments(Doctorid, Appointmenttime)` and `Bills(Billdate)` would speed up the trigger and the revenue report.
 
-## License
-
-This project is for learning and demonstration purposes.
